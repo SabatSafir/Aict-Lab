@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Information</title>
+</head>
+<body>
+
+    <h1>Student Information</h1>
+
+    <div id="student"></div>
+
+    <script>
+        // Declare and assign variables
+        let studentName = "M.SABAT SAFIR";
+        let rollNumber = "2601614";
+        let department = "Software engineering";
+        let semester = 1;
+
+        // Display information using innerHTML
+        document.getElementById("student").innerHTML =
+            "<h2>Student Details</h2>" +
+            "<p>Name: " + studentName + "</p>" +
+            "<p>Roll Number: " + rollNumber + "</p>" +
+            "<p>Department: " + department + "</p>" +
+            "<p>Semester: " + semester + "</p>";
+    </script>
+
+</body>
+</html>
